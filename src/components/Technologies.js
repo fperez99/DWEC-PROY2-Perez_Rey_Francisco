@@ -21,7 +21,7 @@ export default function Stages() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                <Paper elevation={3} style={paperstyle}>Step 1 : Write
+                <Paper elevation={3} style={paperstyle}>Desarrollo de Aplicaciones Multiplataformas
                 </Paper>
                 </TimelineContent>
             </TimelineItem>
@@ -31,7 +31,7 @@ export default function Stages() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                <Paper elevation={3} style={paperstyle}>Step 2 : Draft
+                <Paper elevation={3} style={paperstyle}>Desarrollo de Aplicaciones Web
                 </Paper>
                 </TimelineContent>
             </TimelineItem>
