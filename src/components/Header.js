@@ -1,11 +1,8 @@
-import { AppBar, List, makeStyles, Toolbar, IconButton, Drawer, Divider, ListItem, ListItemIcon } from "@material-ui/core";
+import { AppBar, List, makeStyles, Toolbar} from "@material-ui/core";
 import { mergeClasses } from "@material-ui/styles";
-import React, { useState } from "react";
+import React from "react";
 import logo from "../images/Logo.png"
-import {Link, animateScroll as scroll} from "react-scroll"
-import MenuIcon from "@material-ui/icons/Menu"
-import CancelIcon from "@material-ui/icons/Cancel"
-import { Block } from "@material-ui/icons";
+import {Link} from "react-scroll"
 
 const link = [
     {
@@ -32,9 +29,8 @@ const link = [
 ]
 
 
-const Navbar = () => {
+const Header = () => {
     const classes = useStyles();
-    const [open, setOpen] = useState(false)
     return(
         <>
         <AppBar position="sticky" className={classes.root}>
@@ -56,14 +52,13 @@ const Navbar = () => {
                 </List>
             </Toolbar>
         </AppBar>
-        
         </>
     )
 }
 
 const useStyles = makeStyles((theme)=> ({
     root: {
-        backgroundColor: "#fafafa",
+        backgroundColor: "#000000",
         top: 0,
         left: 0,
         right: 0,
@@ -89,19 +84,18 @@ const useStyles = makeStyles((theme)=> ({
             display: "none"
         },
         "& a" :{
-            color: "#333",
+            color: "#FEFEFE",
             fontSize: "1.4rem",
             fontWeight: "bold",
             marginLeft: theme.spacing(3)
         },
         "& a:hover":{
             cursor: "pointer",
-            color: "tomato",
-            borderBottom: "3px solid tomato",
+            color: "#FFEB00",
         }
     },
 
    
   }))
 
-export default Navbar
+export default Header

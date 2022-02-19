@@ -7,7 +7,7 @@ const Academics = ({title, dark, id}) => {
     return(
         <div className={`${classes.section} ${dark && classes.sectiondark}`}>
             <div className={classes.sectioncontent} id={id}>
-                <Typography variant="h3">{title}</Typography>
+                <Typography className={classes.titu} variant="h3">{title}</Typography>
                 <Technologies/>
             </div>
         </div>
@@ -15,11 +15,15 @@ const Academics = ({title, dark, id}) => {
 }
 
 const useStyles = makeStyles((theme)=> ({
+    titu: {
+        textAlign:"center",
+        paddingTop: "30px",
+    },
     section: {
-        minHeight: "100vh",
+        minHeight: "70vh",
     },
     sectiondark:{
-        background: "#333",
+        background: "#000000",
         color: "#fff",
     },
   }))

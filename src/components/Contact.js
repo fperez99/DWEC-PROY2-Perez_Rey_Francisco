@@ -10,7 +10,6 @@ const Contact = ({title, dark, id}) => {
                 <Typography variant="h3">{title}</Typography>
                 <Paper className={classes.root}>
                     <div className={classes.titleandchoices}>
-                    <Typography variant= "h5">CONTACTAR CONMIGO</Typography>
                     </div>
                     <form className={classes.form} noValidate autoComplete="off">
                         <TextField label="Tu nombre"/>
@@ -25,24 +24,24 @@ const Contact = ({title, dark, id}) => {
 }
 
 const useStyles = makeStyles((theme)=> ({
+    
     section: {
-        minHeight: "100vh",
+        minHeight: "80vh",
     },
     sectiondark:{
-        background: "#333",
+        background: "#000000",
         color: "#fff",
     },
 
     root: {
-        marginTop: theme.spacing(4),
-        background: "tomato",
+        marginTop: theme.spacing(8),
         color: "#fff",
         fontSize: "1.2rem",
         maxWidth: "500px",
         display: "flex",
         flexDirection: "Columnn",
         justifyContent: "space-between",
-        padding: theme.spacing(4),
+        padding: theme.spacing(8),
         "& button": {
             backgroundColor: "#fff",
         },
@@ -54,7 +53,7 @@ const useStyles = makeStyles((theme)=> ({
     },
 
     sectioncontent: {
-        maxWidth: "80vw",
+        maxWidth: "100%",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

@@ -9,7 +9,7 @@ const About = ({title, dark, id}) => {
     return(
         <div className={`${classes.section} ${dark && classes.sectiondark}`}>
             <div className={classes.sectioncontent} id={id}>
-                <Typography variant="h3">{title}</Typography>
+                <Typography className={classes.titu} variant="h3">{title}</Typography>
                 <Card className={classes.card}>
                     <CardMedia image={perfil} className={classes.media} title="picture"/>
                     <CardContent className={classes.cardcontent}>
@@ -30,7 +30,9 @@ const About = ({title, dark, id}) => {
                     />
 
                     <Typography variant="h6" color="textSecondary">
-                        Texto para describir
+                        Desarrollador de Aplicaciones Multiplataformas, ahora mismo me encuentro cursando el Grado Superior
+                        Desarrollo de Aplicaciones Web y en una empresa trabajando como desarrollador de software.
+                        Persona entusiasmada por seguir aprendiendo y poder demostrar todo lo aprendido durante mi etaapa formativa
                     </Typography>
                     </CardContent>
                     <CardActions>
@@ -47,11 +49,15 @@ const About = ({title, dark, id}) => {
 }
 
 const useStyles = makeStyles((theme) => ({
+    titu:{
+        paddingTop:"20px",
+    },
+    
     section: {
         minHeight: "100vh",
     },
     sectiondark:{
-        background: "#333",
+        background: "#000000",
         color: "#fff",
     },
 
@@ -68,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
     media: {
-        width: "250px",
+        width: "1000px",
         height: "auto",
         objectFit: "cover",
         borderRadius: "10px",
@@ -84,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
 
     pdfbutton: {
         position: "absolute",
-        bottom: "5rem",
+        bottom: "3rem",
         right: "4rem",
         backgroundColor: "tomato",
         padding: theme.spacing(3),
