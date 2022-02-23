@@ -4,8 +4,8 @@ luego otra parte donde son mis estudios que podemos ver una linea del tiempo don
 aparecen los proyectos(en este caso estan vacios por no tengo ningunjo ahora mismo), por ultimo como apartado tengo una calculadora con funcionalidades.
 Debajo del todo tenemos un footer con las redes sociales.
 
-Enlace de Git ->
-Enlace de GitHub Page ->
+Enlace de Git -> https://github.com/fperez99/DWEC-PROY2-Perez_Rey_Francisco.git
+Enlace de GitHub Page -> https://fperez99.github.io/DWEC-PROY2-Perez_Rey_Francisco/
 
 # Getting Started with Create React App
 
