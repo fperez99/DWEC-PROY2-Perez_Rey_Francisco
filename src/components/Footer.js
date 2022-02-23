@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
-import {BsLinkedin} from "react-icons/bs";
+
 
 const Container = styled.div`
     min-height: 5vh;
-    padding: 20px 20px;
+    padding: 0px 20px;
     background: #000000;
     justify-content: center;
 `
@@ -57,16 +57,11 @@ export default class Footer extends Component {
                     <Row>
                         <Column>
                         <Link href="#">Linkedin</Link>
-                        <Link href="#"><BsLinkedin/></Link>
                         </Column>
-                        
                         <Column>
                         <Link href="#">Instagram</Link>
-                        <Link href="#"><BsLinkedin/></Link>
                         </Column>
-                        
                         <Link href="#">Facebook</Link>
-                        <Link href="#"></Link>
                     </Row>
                 </Wrapper>
             </Container>

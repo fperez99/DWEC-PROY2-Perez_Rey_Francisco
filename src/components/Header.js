@@ -22,8 +22,8 @@ const link = [
     },
 
     {
-        id: "contact",
-        text: "Contacto",
+        id: "calculator",
+        text: "Calculadora",
         
     },
 ]
