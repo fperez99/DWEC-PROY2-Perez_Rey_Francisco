@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fperez99.github.io/DWEC-PROY2-Perez_Rey_Francisco",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.17",
     "@material-ui/core": "^4.12.3",
