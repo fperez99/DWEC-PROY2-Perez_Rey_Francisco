@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/DWEC-PROY2-Perez_Rey_Francisco/static/css/main.b6984e8c.css",
+    "main.js": "/DWEC-PROY2-Perez_Rey_Francisco/static/js/main.8399c93b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/DWEC-PROY2-Perez_Rey_Francisco/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IMG-1828.JPG": "/DWEC-PROY2-Perez_Rey_Francisco/static/media/IMG-1828.72c54ec759b5d2c13b37.JPG",
+    "static/media/CV actualizado word.pdf": "/DWEC-PROY2-Perez_Rey_Francisco/static/media/CV actualizado word.9f18f6c429a39bb9ff81.pdf",
+    "static/media/Logo.png": "/DWEC-PROY2-Perez_Rey_Francisco/static/media/Logo.effe2afae3f74565cfc2.png",
+    "index.html": "/DWEC-PROY2-Perez_Rey_Francisco/index.html",
+    "main.b6984e8c.css.map": "/DWEC-PROY2-Perez_Rey_Francisco/static/css/main.b6984e8c.css.map",
+    "main.8399c93b.js.map": "/DWEC-PROY2-Perez_Rey_Francisco/static/js/main.8399c93b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/DWEC-PROY2-Perez_Rey_Francisco/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6984e8c.css",
+    "static/js/main.8399c93b.js"
+  ]
+}
