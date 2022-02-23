@@ -56,10 +56,10 @@ export default class Footer extends Component {
                 <Wrapper>
                     <Row>
                         <Column>
-                        <Link href="#">Linkedin</Link>
+                        <Link href="https://www.linkedin.com/in/francisco-p%C3%A9rez-rey-704104201/">Linkedin</Link>
                         </Column>
                         <Column>
-                        <Link href="#">Instagram</Link>
+                        <Link href="https://www.instagram.com/franperezz99/">Instagram</Link>
                         </Column>
                         <Link href="#">Facebook</Link>
                     </Row>

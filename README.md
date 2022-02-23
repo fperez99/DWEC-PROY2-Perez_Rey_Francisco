@@ -1,3 +1,12 @@
+Portfolio
+Mi proyecto es un portfolio donde podemos ver que esta compuesto por componentes, donde hay un "Sobre mi" explicando un poco a lo que me dedico y estudio,
+luego otra parte donde son mis estudios que podemos ver una linea del tiempo donde se muestran mis estudios, practicas y sitios donde he btrabajado, otro apartado donde
+aparecen los proyectos(en este caso estan vacios por no tengo ningunjo ahora mismo), por ultimo como apartado tengo una calculadora con funcionalidades.
+Debajo del todo tenemos un footer con las redes sociales.
+
+Enlace de Git ->
+Enlace de GitHub Page ->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

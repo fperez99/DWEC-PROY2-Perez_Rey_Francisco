@@ -56,9 +56,9 @@ export default function CustomizedTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Prácticas - Hermes Interacive
+              Prácticas - Hermes Interacive (Puerto de Santa María)
             </Typography>
-            <Typography>Mes (Puerto de Santa María)</Typography>
+            <Typography>Abril-Junio 2021</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -87,9 +87,9 @@ export default function CustomizedTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" component="h1">
-              Trabajo - Desarrollador de software
+              Trabajo - Desarrollador de software (Tecnica24)
             </Typography>
-            <Typography>Tecnica24 - Actualidad</Typography>
+            <Typography>Actulidad</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
